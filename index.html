@@ -22,7 +22,49 @@
         </div>
     </div>
     <div class="right-panel">
-        salut
+        <p>Did you ever wanted to gather life energy from stones ? Your lifelong dream is <em>to be a wizard</em> ? Don't waste anymore time searching ! The <b>Magic Stones foundation</b> is made for you and only you !</p>
+        <p>Join us by signing up down below !</p>
+        <form action="#" method="post" id="join-form">
+            <legend>Create you account now !</legend>
+            
+            <div class="input-row">
+                <div class="input-element">
+                    <label for="first-name">First name:</label>
+                    <input required type="text" id="first-name" name="first-name">
+                </div>
+                <div class="input-element">
+                    <label for="last-name">Last name (optionnal):</label>
+                    <input type="text" id="last-name" name="last-name">
+                </div>
+            </div>
+
+            <div class="input-row">
+                <div class="input-element">
+                    <label for="email">Email:</label>
+                    <input required type="email" id="email" name="email">
+                </div>
+                <div class="input-element">
+                    <label for="phone_number">Phone Number (optionnal):</label>
+                    <input type="tel" id="phone_number" name="phone_number">
+                </div>
+            </div>
+
+            <div class="input-row">
+                <div class="input-element">
+                    <label for="password">Password:</label>
+                    <input required type="password" id="password" name="password">
+                </div>
+                <div class="input-element">
+                    <label for="confirm-password">Confirm password:</label>
+                    <input required type="password" id="confirm-password" name="confirm-password">
+                </div>
+            </div>
+        </form>
+
+        <div>
+            <button type="submit" form="join-form" value="Submit">Join</button>
+            <p class="member">Already a member ? <a href="#">Log in</a></p>
+        </div>
     </div>
 </body>
 </html>
