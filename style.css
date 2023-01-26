@@ -113,10 +113,6 @@ input {
     border: 1px solid gray;
 }
 
-input:invalid {
-    border: 1px solid red;
-}
-
 input:focus {
     border: 2px solid rgb(73, 122, 153);
     box-shadow: 4px 3px 3px rgb(73, 122, 153);
@@ -138,4 +134,12 @@ legend {
 
 .member {
     font-size: 1rem;
+}
+
+.error {
+    border: 1px solid darkred;
+}
+
+input:valid {
+    border: 1px solid gray;
 }
